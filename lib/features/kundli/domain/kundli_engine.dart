@@ -28,7 +28,7 @@ class KundliEngine {
         'packages/sweph/assets/ephe/seas_18.se1',
       ],
     );
-    Sweph.swe_set_sid_mode(SiderealMode.SE_SIDM_LAHIRI, 0, 0);
+   Sweph.swe_set_sid_mode(SiderealMode.SE_SIDM_LAHIRI, SiderealModeFlag.none, SiderealModeFlag.none); 
     _ready = true;
   }
  
