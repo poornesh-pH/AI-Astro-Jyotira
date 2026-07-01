@@ -1,0 +1,21 @@
+{
+  "@@locale": "en",
+  "appName": "Jyotira",
+  "todayHoroscope": "Today's Horoscope",
+  "myKundli": "My Kundli",
+  "getMyReading": "Get my reading",
+  "viewToday": "View today",
+  "unlockPremium": "Unlock Premium",
+  "premiumActive": "Jyotira Premium active",
+  "fullReport": "Full Report",
+  "doshaRemedies": "Dosha & Remedies",
+  "shubhMuhurat": "Shubh Muhurat",
+  "compatibility": "Compatibility",
+  "askAi": "Ask AI Jyotish",
+  "settings": "Settings",
+  "language": "Language",
+  "birthDetails": "Birth Details",
+  "generateKundli": "Generate my kundli",
+  "errorGeneric": "Something went wrong. Please try again.",
+  "emptyChart": "Add your birth details to generate your kundli."
+}

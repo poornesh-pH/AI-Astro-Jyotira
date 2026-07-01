@@ -1,0 +1,21 @@
+{
+  "@@locale": "hi",
+  "appName": "ज्योतिरा",
+  "todayHoroscope": "आज का राशिफल",
+  "myKundli": "मेरी कुंडली",
+  "getMyReading": "मेरा फलादेश पाएं",
+  "viewToday": "आज देखें",
+  "unlockPremium": "प्रीमियम अनलॉक करें",
+  "premiumActive": "ज्योतिरा प्रीमियम सक्रिय",
+  "fullReport": "पूर्ण रिपोर्ट",
+  "doshaRemedies": "दोष और उपाय",
+  "shubhMuhurat": "शुभ मुहूर्त",
+  "compatibility": "गुण मिलान",
+  "askAi": "एआई ज्योतिष से पूछें",
+  "settings": "सेटिंग्स",
+  "language": "भाषा",
+  "birthDetails": "जन्म विवरण",
+  "generateKundli": "मेरी कुंडली बनाएं",
+  "errorGeneric": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
+  "emptyChart": "अपनी कुंडली बनाने के लिए जन्म विवरण जोड़ें।"
+}

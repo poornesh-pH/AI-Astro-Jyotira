@@ -1,0 +1,21 @@
+{
+  "@@locale": "ta",
+  "appName": "ஜோதிரா",
+  "todayHoroscope": "இன்றைய ராசிபலன்",
+  "myKundli": "எனது ஜாதகம்",
+  "getMyReading": "எனது பலனைப் பெறு",
+  "viewToday": "இன்று பார்",
+  "unlockPremium": "பிரீமியத்தைத் திற",
+  "premiumActive": "ஜோதிரா பிரீமியம் செயலில்",
+  "fullReport": "முழு அறிக்கை",
+  "doshaRemedies": "தோஷம் & பரிகாரம்",
+  "shubhMuhurat": "சுப முகூர்த்தம்",
+  "compatibility": "பொருத்தம்",
+  "askAi": "AI ஜோதிடரிடம் கேள்",
+  "settings": "அமைப்புகள்",
+  "language": "மொழி",
+  "birthDetails": "பிறப்பு விவரங்கள்",
+  "generateKundli": "எனது ஜாதகத்தை உருவாக்கு",
+  "errorGeneric": "ஏதோ தவறு. மீண்டும் முயற்சிக்கவும்.",
+  "emptyChart": "ஜாதகத்தை உருவாக்க பிறப்பு விவரங்களைச் சேர்க்கவும்."
+}

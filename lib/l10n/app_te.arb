@@ -1,0 +1,21 @@
+{
+  "@@locale": "te",
+  "appName": "జ్యోతిరా",
+  "todayHoroscope": "నేటి రాశిఫలం",
+  "myKundli": "నా జాతకం",
+  "getMyReading": "నా ఫలితం పొందండి",
+  "viewToday": "నేడు చూడండి",
+  "unlockPremium": "ప్రీమియం అన్‌లాక్ చేయండి",
+  "premiumActive": "జ్యోతిరా ప్రీమియం యాక్టివ్",
+  "fullReport": "పూర్తి నివేదిక",
+  "doshaRemedies": "దోషం & పరిహారాలు",
+  "shubhMuhurat": "శుభ ముహూర్తం",
+  "compatibility": "జాతక పొంతన",
+  "askAi": "AI జ్యోతిష్యుడిని అడగండి",
+  "settings": "సెట్టింగ్‌లు",
+  "language": "భాష",
+  "birthDetails": "జనన వివరాలు",
+  "generateKundli": "నా జాతకాన్ని రూపొందించండి",
+  "errorGeneric": "ఏదో తప్పు జరిగింది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+  "emptyChart": "జాతకం రూపొందించడానికి జనన వివరాలను జోడించండి."
+}

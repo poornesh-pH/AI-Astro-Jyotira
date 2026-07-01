@@ -1,0 +1,21 @@
+{
+  "@@locale": "bn",
+  "appName": "জ্যোতিরা",
+  "todayHoroscope": "আজকের রাশিফল",
+  "myKundli": "আমার কুণ্ডলী",
+  "getMyReading": "আমার ফল দেখুন",
+  "viewToday": "আজ দেখুন",
+  "unlockPremium": "প্রিমিয়াম আনলক করুন",
+  "premiumActive": "জ্যোতিরা প্রিমিয়াম সক্রিয়",
+  "fullReport": "সম্পূর্ণ রিপোর্ট",
+  "doshaRemedies": "দোষ ও প্রতিকার",
+  "shubhMuhurat": "শুভ মুহূর্ত",
+  "compatibility": "গুণ মিলন",
+  "askAi": "AI জ্যোতিষীকে জিজ্ঞাসা করুন",
+  "settings": "সেটিংস",
+  "language": "ভাষা",
+  "birthDetails": "জন্ম বিবরণ",
+  "generateKundli": "আমার কুণ্ডলী তৈরি করুন",
+  "errorGeneric": "কিছু একটা ভুল হয়েছে। আবার চেষ্টা করুন।",
+  "emptyChart": "কুণ্ডলী তৈরি করতে জন্ম বিবরণ যোগ করুন।"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "jyotira-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grounded LLM interpretation endpoint for Jyotira.",
+  "type": "module",
+  "main": "interpret.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.14.0"
+  }
+}
