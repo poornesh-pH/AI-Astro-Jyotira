@@ -28,7 +28,7 @@ class KundliEngine {
         'packages/sweph/assets/ephe/seas_18.se1',
       ],
     );
-   Sweph.swe_set_sid_mode(SiderealMode.SE_SIDM_LAHIRI, SiderealModeFlag.none, SiderealModeFlag.none); 
+    Sweph.swe_set_sid_mode(SiderealMode.SE_SIDM_LAHIRI, 0, 0);
     _ready = true;
   }
  
@@ -50,9 +50,9 @@ class KundliEngine {
       CalendarType.SE_GREG_CAL,
     );
  
-    const flags = SwephFlag.SEFLG_SIDEREAL |
-        SwephFlag.SEFLG_SWIEPH |
-        SwephFlag.SEFLG_SPEED;
+    final flags = SwephFlag.SEFLG_SIDEREAL.value |
+        SwephFlag.SEFLG_SWIEPH.value |
+        SwephFlag.SEFLG_SPEED.value;
  
     const bodies = <Planet, HeavenlyBody>{
       Planet.sun: HeavenlyBody.SE_SUN,
