@@ -28,7 +28,11 @@ class KundliEngine {
         'packages/sweph/assets/ephe/seas_18.se1',
       ],
     );
-    Sweph.swe_set_sid_mode(SiderealMode.SE_SIDM_LAHIRI, 0, 0);
+    Sweph.swe_set_sid_mode(
+      SiderealMode.SE_SIDM_LAHIRI,
+      SiderealModeFlag.SE_SIDBIT_NONE,
+      0.0,
+    );
     _ready = true;
   }
  
@@ -50,9 +54,9 @@ class KundliEngine {
       CalendarType.SE_GREG_CAL,
     );
  
-    final flags = SwephFlag.SEFLG_SIDEREAL.value |
-        SwephFlag.SEFLG_SWIEPH.value |
-        SwephFlag.SEFLG_SPEED.value;
+    final SwephFlag flags = SwephFlag.SEFLG_SIDEREAL |
+      SwephFlag.SEFLG_SWIEPH |
+      SwephFlag.SEFLG_SPEED;
  
     const bodies = <Planet, HeavenlyBody>{
       Planet.sun: HeavenlyBody.SE_SUN,
@@ -87,7 +91,7 @@ class KundliEngine {
     return Kundli(lagnaSign: lagnaSign, planets: planets, dashas: dashas);
   }
  
-  double _ascendant(double jd, double lat, double lng, int flags) {
+  double _ascendant(double jd, double lat, double lng, SwephFlag flags) {
     final h = Sweph.swe_houses_ex(jd, flags, lat, lng, Hsys.W);
     // ascmc[0] is the ascendant per Swiss Ephemeris convention.
     return _norm(h.ascmc[0]);
